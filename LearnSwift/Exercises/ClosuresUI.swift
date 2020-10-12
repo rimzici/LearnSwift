@@ -15,6 +15,12 @@ struct ClosuresUI: View {
                 .onTapGesture {
                     closureUsage()
                 }
+            Text("2. Escaping Closure Usage")
+                .onTapGesture {
+                    ClosureClass().escapingClosure() {
+                        print("TEST inside closure")
+                    }
+                }
         }.navigationBarTitle("Closures Exercises")
         .listStyle(GroupedListStyle())
     }

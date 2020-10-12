@@ -25,3 +25,14 @@ func closureUsage() {
     }
     print("TEST strings : \(strings)")
 }
+
+class ClosureClass {
+    func escapingClosure(completionHandler: @escaping () -> Void) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            print("TEST Timer fired!")
+            completionHandler();
+        }
+        print("TEST statement below Timer")
+    }
+}
+
