@@ -81,3 +81,50 @@ func iterateOverEnumCases() {
         print("TEST enumCase.rawValue \(enumCase.rawValue)")
     }
 }
+
+func associatedValues() {
+    enum Barcode {
+        case upc(Int, Int, Int, Int)
+        case qrCode(String)
+    }
+    var productBarcode = Barcode.upc(8, 85909, 51226, 3)
+    print("TEST 1 productBarcode \(productBarcode)")
+    productBarcode = Barcode.qrCode("dhasdjkhdadv")
+    print("TEST 2 productBarcode \(productBarcode)")
+    switch productBarcode {
+        case let .upc(numberSystem, manufacturer, product, check):
+            print("TEST UPC : \(numberSystem), \(manufacturer), \(product), \(check)")
+        case let .qrCode(productCode):
+            print("TEST QR code: \(productCode)")
+    }
+}
+
+func recursiveEnum() {
+    enum ArithMeticExpression {
+        case number(Int)
+        indirect case addition(ArithMeticExpression, ArithMeticExpression)
+        indirect case multiplication(ArithMeticExpression, ArithMeticExpression)
+    }
+    
+    var numOne = ArithMeticExpression.number(3)
+    var numTwo = ArithMeticExpression.number(5)
+    var sum = ArithMeticExpression.addition(numOne, numTwo)
+    var product = ArithMeticExpression.multiplication(sum, numTwo)
+    
+    func evaluate(_ arithMeticExpression: ArithMeticExpression) -> Int {
+        switch arithMeticExpression {
+            case let .number(value):
+                return value
+            
+            case let .addition(left, right):
+                return evaluate(left) + evaluate(right)
+            
+            case let .multiplication(left, right):
+                return evaluate(left) * evaluate(right)
+            
+        }
+    }
+    
+    var evaluatedValue = evaluate(product)
+    print("TEST evaluatedValue \(evaluatedValue)")
+}

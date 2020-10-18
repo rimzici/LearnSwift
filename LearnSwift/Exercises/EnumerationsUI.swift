@@ -27,6 +27,14 @@ struct EnumerationsUI: View {
                 .onTapGesture {
                     iterateOverEnumCases()
                 }
+            Text("5. Associated Values")
+                .onTapGesture {
+                    associatedValues()
+                }
+            Text("6. Recursive Enum")
+                .onTapGesture {
+                    recursiveEnum()
+                }
         }.navigationBarTitle("Enumerations Exercises")
         .listStyle(GroupedListStyle())
     }
