@@ -14,6 +14,9 @@ struct ContentView: View {
                 NavigationLink(destination: ClosuresUI()) {
                     Text("Closures")
                 }
+                NavigationLink(destination: EnumerationsUI()) {
+                    Text("Enumerations")
+                }
             }.navigationBarTitle("Exercises")
             .listStyle(GroupedListStyle())
         }
