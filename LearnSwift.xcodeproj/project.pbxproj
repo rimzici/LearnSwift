@@ -14,6 +14,8 @@
 		26AF5033253BEFF8002652C4 /* EnumerationsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AF5032253BEFF8002652C4 /* EnumerationsUI.swift */; };
 		26AF5038253CB03F002652C4 /* ClassStructureUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AF5037253CB03F002652C4 /* ClassStructureUI.swift */; };
 		26AF5040253CB05C002652C4 /* ClassStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AF503F253CB05C002652C4 /* ClassStructure.swift */; };
+		26E057B3253DFB9700BCAB79 /* PropertiesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E057B2253DFB9700BCAB79 /* PropertiesUI.swift */; };
+		26E057B8253DFBA200BCAB79 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E057B7253DFBA200BCAB79 /* Properties.swift */; };
 		26EB4BD925011DFC00A05A9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EB4BD825011DFC00A05A9A /* AppDelegate.swift */; };
 		26EB4BDB25011DFC00A05A9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EB4BDA25011DFC00A05A9A /* SceneDelegate.swift */; };
 		26EB4BDD25011DFC00A05A9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EB4BDC25011DFC00A05A9A /* ContentView.swift */; };
@@ -49,6 +51,8 @@
 		26AF5032253BEFF8002652C4 /* EnumerationsUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumerationsUI.swift; sourceTree = "<group>"; };
 		26AF5037253CB03F002652C4 /* ClassStructureUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassStructureUI.swift; sourceTree = "<group>"; };
 		26AF503F253CB05C002652C4 /* ClassStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassStructure.swift; sourceTree = "<group>"; };
+		26E057B2253DFB9700BCAB79 /* PropertiesUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesUI.swift; sourceTree = "<group>"; };
+		26E057B7253DFBA200BCAB79 /* Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Properties.swift; sourceTree = "<group>"; };
 		26EB4BD525011DFC00A05A9A /* LearnSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26EB4BD825011DFC00A05A9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26EB4BDA25011DFC00A05A9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 				26AF5032253BEFF8002652C4 /* EnumerationsUI.swift */,
 				26AF5037253CB03F002652C4 /* ClassStructureUI.swift */,
 				26AF503F253CB05C002652C4 /* ClassStructure.swift */,
+				26E057B2253DFB9700BCAB79 /* PropertiesUI.swift */,
+				26E057B7253DFBA200BCAB79 /* Properties.swift */,
 			);
 			path = Exercises;
 			sourceTree = "<group>";
@@ -295,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26E057B8253DFBA200BCAB79 /* Properties.swift in Sources */,
 				26AF502E253BEFD7002652C4 /* Enumerations.swift in Sources */,
 				26AF5038253CB03F002652C4 /* ClassStructureUI.swift in Sources */,
 				26EB4BD925011DFC00A05A9A /* AppDelegate.swift in Sources */,
@@ -302,6 +309,7 @@
 				26AF5040253CB05C002652C4 /* ClassStructure.swift in Sources */,
 				26EB4BDB25011DFC00A05A9A /* SceneDelegate.swift in Sources */,
 				26690F742503E54600AEAFE4 /* ExercisesList.swift in Sources */,
+				26E057B3253DFB9700BCAB79 /* PropertiesUI.swift in Sources */,
 				26EB4BDD25011DFC00A05A9A /* ContentView.swift in Sources */,
 				26690F762503E58A00AEAFE4 /* ClosuresUI.swift in Sources */,
 				26AF5033253BEFF8002652C4 /* EnumerationsUI.swift in Sources */,

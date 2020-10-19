@@ -20,6 +20,9 @@ struct ContentView: View {
                 NavigationLink(destination: ClassStructureUI()) {
                     Text("Class And Structure")
                 }
+                NavigationLink(destination: PropertiesUI()) {
+                    Text("Properties")
+                }
             }.navigationBarTitle("Exercises")
             .listStyle(GroupedListStyle())
         }
