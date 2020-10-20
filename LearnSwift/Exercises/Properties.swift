@@ -33,3 +33,55 @@ func storedAndComputedProps() {
     print("TEST post set constTimeMotion.time : ", constTimeMotion.time)
     print("TEST post set constTimeMotion.velocity : ", constTimeMotion.velocity)
 }
+
+func propertyObservers() {
+    class DoorSensor {
+        var motionDetected = false {
+            willSet(newValue) {
+                if (newValue) {
+                    gainCameraFocus()
+                }
+            }
+            didSet(oldValue) {
+                if (motionDetected) {
+                    notify()
+                }
+            }
+        }
+        
+        func gainCameraFocus() {
+            print("The CCTV camera is made to focus the door")
+        }
+        
+        func notify() {
+            print("Some motion has been detected at the door")
+        }
+    }
+
+    DoorSensor().motionDetected = true
+}
+
+func propertyWrappers() {
+    @propertyWrapper
+    struct tenOrLess {
+        private var number: Int = 0
+        var wrappedValue: Int {
+            get {
+                return number
+            }
+            set {
+                number = min(10, newValue)
+            }
+        }
+    }
+    
+    class AClass {
+        @tenOrLess var aClassVar: Int
+    }
+    
+    var aClass = AClass()
+    aClass.aClassVar = 5
+    print("TEST aClass.aClassVar", aClass.aClassVar)
+    aClass.aClassVar = 15
+    print("TEST aClass.aClassVar", aClass.aClassVar)
+}

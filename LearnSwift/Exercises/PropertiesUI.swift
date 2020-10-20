@@ -15,6 +15,14 @@ struct PropertiesUI: View {
                 .onTapGesture {
                     storedAndComputedProps()
                 }
+            Text("Property Observers")
+                .onTapGesture {
+                    propertyObservers()
+                }
+            Text("Property Wrappers")
+                .onTapGesture {
+                    propertyWrappers()
+                }
         }.navigationBarTitle("Properties Exercises")
         .listStyle(GroupedListStyle())
     }
