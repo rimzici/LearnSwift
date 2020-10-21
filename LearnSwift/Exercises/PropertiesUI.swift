@@ -23,6 +23,10 @@ struct PropertiesUI: View {
                 .onTapGesture {
                     propertyWrappers()
                 }
+            Text("Projected Value")
+                .onTapGesture {
+                    projectedValue()
+                }
         }.navigationBarTitle("Properties Exercises")
         .listStyle(GroupedListStyle())
     }
