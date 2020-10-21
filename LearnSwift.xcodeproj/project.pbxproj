@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		265793102540477A00929DA6 /* FolderReference in Resources */ = {isa = PBXBuildFile; fileRef = 2657930F2540477A00929DA6 /* FolderReference */; };
 		26690F742503E54600AEAFE4 /* ExercisesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26690F732503E54600AEAFE4 /* ExercisesList.swift */; };
 		26690F762503E58A00AEAFE4 /* ClosuresUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26690F752503E58A00AEAFE4 /* ClosuresUI.swift */; };
 		26690F782503E7DD00AEAFE4 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26690F772503E7DD00AEAFE4 /* Closures.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2657930F2540477A00929DA6 /* FolderReference */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FolderReference; sourceTree = "<group>"; };
 		26690F732503E54600AEAFE4 /* ExercisesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesList.swift; sourceTree = "<group>"; };
 		26690F752503E58A00AEAFE4 /* ClosuresUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosuresUI.swift; sourceTree = "<group>"; };
 		26690F772503E7DD00AEAFE4 /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
@@ -94,6 +96,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2657930E2540476C00929DA6 /* FolderGroup */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FolderGroup;
+			sourceTree = "<group>";
+		};
 		26690F722503E51B00AEAFE4 /* Exercises */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +122,8 @@
 		26EB4BCC25011DFC00A05A9A = {
 			isa = PBXGroup;
 			children = (
+				2657930F2540477A00929DA6 /* FolderReference */,
+				2657930E2540476C00929DA6 /* FolderGroup */,
 				26EB4BD725011DFC00A05A9A /* LearnSwift */,
 				26EB4BEE25011E0000A05A9A /* LearnSwiftTests */,
 				26EB4BF925011E0100A05A9A /* LearnSwiftUITests */,
@@ -276,6 +287,7 @@
 			files = (
 				26EB4BE525011E0000A05A9A /* LaunchScreen.storyboard in Resources */,
 				26EB4BE225011E0000A05A9A /* Preview Assets.xcassets in Resources */,
+				265793102540477A00929DA6 /* FolderReference in Resources */,
 				26EB4BDF25011E0000A05A9A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
