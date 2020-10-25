@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		260BC1652545E59000C8BAC0 /* Subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BC1642545E59000C8BAC0 /* Subscript.swift */; };
+		260BC16A2545E5A700C8BAC0 /* SubscriptUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BC1692545E5A700C8BAC0 /* SubscriptUIView.swift */; };
 		265793102540477A00929DA6 /* FolderReference in Resources */ = {isa = PBXBuildFile; fileRef = 2657930F2540477A00929DA6 /* FolderReference */; };
 		26690F742503E54600AEAFE4 /* ExercisesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26690F732503E54600AEAFE4 /* ExercisesList.swift */; };
 		26690F762503E58A00AEAFE4 /* ClosuresUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26690F752503E58A00AEAFE4 /* ClosuresUI.swift */; };
@@ -45,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		260BC1642545E59000C8BAC0 /* Subscript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscript.swift; sourceTree = "<group>"; };
+		260BC1692545E5A700C8BAC0 /* SubscriptUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptUIView.swift; sourceTree = "<group>"; };
 		2657930F2540477A00929DA6 /* FolderReference */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FolderReference; sourceTree = "<group>"; };
 		26690F732503E54600AEAFE4 /* ExercisesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesList.swift; sourceTree = "<group>"; };
 		26690F752503E58A00AEAFE4 /* ClosuresUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosuresUI.swift; sourceTree = "<group>"; };
@@ -115,6 +119,8 @@
 				26AF503F253CB05C002652C4 /* ClassStructure.swift */,
 				26E057B2253DFB9700BCAB79 /* PropertiesUI.swift */,
 				26E057B7253DFBA200BCAB79 /* Properties.swift */,
+				260BC1642545E59000C8BAC0 /* Subscript.swift */,
+				260BC1692545E5A700C8BAC0 /* SubscriptUIView.swift */,
 			);
 			path = Exercises;
 			sourceTree = "<group>";
@@ -318,12 +324,14 @@
 				26AF5038253CB03F002652C4 /* ClassStructureUI.swift in Sources */,
 				26EB4BD925011DFC00A05A9A /* AppDelegate.swift in Sources */,
 				26690F782503E7DD00AEAFE4 /* Closures.swift in Sources */,
+				260BC16A2545E5A700C8BAC0 /* SubscriptUIView.swift in Sources */,
 				26AF5040253CB05C002652C4 /* ClassStructure.swift in Sources */,
 				26EB4BDB25011DFC00A05A9A /* SceneDelegate.swift in Sources */,
 				26690F742503E54600AEAFE4 /* ExercisesList.swift in Sources */,
 				26E057B3253DFB9700BCAB79 /* PropertiesUI.swift in Sources */,
 				26EB4BDD25011DFC00A05A9A /* ContentView.swift in Sources */,
 				26690F762503E58A00AEAFE4 /* ClosuresUI.swift in Sources */,
+				260BC1652545E59000C8BAC0 /* Subscript.swift in Sources */,
 				26AF5033253BEFF8002652C4 /* EnumerationsUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

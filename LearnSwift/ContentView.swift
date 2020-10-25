@@ -23,6 +23,9 @@ struct ContentView: View {
                 NavigationLink(destination: PropertiesUI()) {
                     Text("Properties")
                 }
+                NavigationLink(destination: SubscriptUIView()) {
+                    Text("Subscript")
+                }
             }.navigationBarTitle("Exercises")
             .listStyle(GroupedListStyle())
         }
