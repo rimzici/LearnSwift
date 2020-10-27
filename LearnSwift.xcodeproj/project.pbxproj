@@ -27,6 +27,8 @@
 		26EB4BE525011E0000A05A9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26EB4BE325011E0000A05A9A /* LaunchScreen.storyboard */; };
 		26EB4BF025011E0000A05A9A /* LearnSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EB4BEF25011E0000A05A9A /* LearnSwiftTests.swift */; };
 		26EB4BFB25011E0100A05A9A /* LearnSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EB4BFA25011E0100A05A9A /* LearnSwiftUITests.swift */; };
+		26F8F99325488E4600B369A1 /* InheritanceUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F8F99225488E4600B369A1 /* InheritanceUIView.swift */; };
+		26F8F99825488E5200B369A1 /* Inheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F8F99725488E5200B369A1 /* Inheritance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		26EB4BF625011E0100A05A9A /* LearnSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26EB4BFA25011E0100A05A9A /* LearnSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSwiftUITests.swift; sourceTree = "<group>"; };
 		26EB4BFC25011E0100A05A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F8F99225488E4600B369A1 /* InheritanceUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InheritanceUIView.swift; sourceTree = "<group>"; };
+		26F8F99725488E5200B369A1 /* Inheritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inheritance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 				26E057B7253DFBA200BCAB79 /* Properties.swift */,
 				260BC1642545E59000C8BAC0 /* Subscript.swift */,
 				260BC1692545E5A700C8BAC0 /* SubscriptUIView.swift */,
+				26F8F99225488E4600B369A1 /* InheritanceUIView.swift */,
+				26F8F99725488E5200B369A1 /* Inheritance.swift */,
 			);
 			path = Exercises;
 			sourceTree = "<group>";
@@ -323,7 +329,9 @@
 				26AF502E253BEFD7002652C4 /* Enumerations.swift in Sources */,
 				26AF5038253CB03F002652C4 /* ClassStructureUI.swift in Sources */,
 				26EB4BD925011DFC00A05A9A /* AppDelegate.swift in Sources */,
+				26F8F99325488E4600B369A1 /* InheritanceUIView.swift in Sources */,
 				26690F782503E7DD00AEAFE4 /* Closures.swift in Sources */,
+				26F8F99825488E5200B369A1 /* Inheritance.swift in Sources */,
 				260BC16A2545E5A700C8BAC0 /* SubscriptUIView.swift in Sources */,
 				26AF5040253CB05C002652C4 /* ClassStructure.swift in Sources */,
 				26EB4BDB25011DFC00A05A9A /* SceneDelegate.swift in Sources */,
