@@ -26,4 +26,11 @@ func valueAndRefTypes() {
     objFirstClassCopy.firstClassProp = 200;
     print("TEST objFirstClass.firstClassProp \(objFirstClass.firstClassProp)")
     print("TEST objFirstClassCopy.firstClassProp \(objFirstClassCopy.firstClassProp)")
+    overwriteClassProperty(objFirstClassCopy)
+    print("TEST 2 objFirstClass.firstClassProp \(objFirstClass.firstClassProp)")
+    print("TEST 2 objFirstClassCopy.firstClassProp \(objFirstClassCopy.firstClassProp)")
+}
+
+func overwriteClassProperty(_ cls: FirstClass) {
+    cls.firstClassProp = 300;
 }
